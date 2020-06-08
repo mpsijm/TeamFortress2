@@ -16,12 +16,12 @@ Container Runtime Environment Variables:
 
 Example docker run:
 ```
-docker run --name "TF2-Server"		     \
-  -e APP_SERVER_PORT=27015      	     \
-  -e APP_SERVER_MAX_PLAYERS=24		     \
+docker run --name "TF2-Server"               \
+  -e APP_SERVER_PORT=27015                   \
+  -e APP_SERVER_MAXPLAYERS=24                \
   -e APP_SERVER_MAP=ctf_2fort                \
   -e APP_SERVER_TOKEN=abc123                 \
-  -e APP_SERVER_NAME="My TF2 Server"	     \
+  -e APP_SERVER_NAME="My TF2 Server"         \
   -e APP_SERVER_CONTACT="user@example.com"   \
   -e APP_SERVER_REGION=3                     \
   -e APP_RCON_PASSWORD=abc123                \
